@@ -17,7 +17,7 @@ def get_weather(latitude, longitude):
 
     try:
         response = requests.get(base_url, params=params)
-        response.raise_for_status() # Вызывает исклdwwюfddffdчение для ошибок HTTP (4xx или 5xx)
+        response.raise_for_status() # Вызывает исклdwsdwюfddffdчение для ошибок HTTP (4xx или 5xx)
         data = response.json()
 
         # Извлечение текущей погоды
